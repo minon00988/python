@@ -1,0 +1,5 @@
+name=int(input("пч"))
+if name%2==1:
+    print("не чётн")
+elif name%2==0:
+    print("чётн")
