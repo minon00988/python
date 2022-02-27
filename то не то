@@ -1,0 +1,6 @@
+name=int(input("пч"))
+if name%3==0 and name>0:
+    print("да")
+else:
+    print("не падходит")
+
