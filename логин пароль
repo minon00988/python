@@ -1,0 +1,7 @@
+ma2=input("vediti nik")
+ma1=input("ведите пароль")
+while ma1!="1935" or ma2!="kor":
+      print("neverniy pirol ili nik")
+      ma1=input("ведите parol")
+      ma2=input("vediti nik")
+print("go")
