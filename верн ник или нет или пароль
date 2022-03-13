@@ -1,0 +1,14 @@
+ma2=input("vediti nik")
+ma1=input("ведите пароль")
+while ma1!="1935" or ma2!="kor":
+    if ma1 !='1935'and ma2=='kor':
+        print('neverniy pasvord')
+    elif ma1=='1935' and ma2!='kor':
+        print("neverniy nik")
+    elif ma1!='1935' and ma2!='kor':
+        print('neverniy nik i porol')
+    ma2=input("vediti nik")
+    ma1=input("ведите пароль")
+    
+print('vse verno')
+
