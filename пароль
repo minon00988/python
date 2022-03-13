@@ -1,0 +1,5 @@
+ma1=input("ведите пароль")
+while ma1!="1935":
+    print("neverniy pirol")
+    ma1=input("ведите пароль")
+print("verny parol")
