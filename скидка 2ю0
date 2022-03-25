@@ -1,0 +1,16 @@
+m=int(input("число"))
+if m <=1000:
+    print("скидки нет")
+    print(m)
+elif m>1000 and m<=5000:
+    print("скидка 5 процентов")
+    m=0.95*m
+    print(m)
+elif m>5001 and m<=10000:
+    print("скидка 10 процентов")
+    m=0.9*m
+    print(m)
+elif m>10001:
+    print("скидка 15 процентов")
+    m=0.85*m
+    print(m)
