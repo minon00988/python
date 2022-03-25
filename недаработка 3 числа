@@ -1,0 +1,17 @@
+n=int(input("v 2 "))
+b=int(input("v 3 "))
+if m>n:
+    if m>b:
+        print("1ceslo")
+    else:
+        print("3 ceslo
+elif n>m:
+    if n>b:
+        print("2 ceslo")
+    else:
+        print("3 ceslo")
+elif b>m:
+    if b>n:
+        print("3 ceslo")
+    else:
+        print("2 ceslo")
